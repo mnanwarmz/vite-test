@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af9acdc826c62a4d1a0d29bf4122a2e2",
+    "content-hash": "efcfa4141deac0270b4fc6328d273747",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5718,6 +5718,63 @@
                 }
             ],
             "time": "2021-12-01T15:04:08+00:00"
+        },
+        {
+            "name": "thepublicgood/vitamin",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tpg/vitamin.git",
+                "reference": "e27d1f1bd219cf55ec67a66973583d3420675146"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tpg/vitamin/zipball/e27d1f1bd219cf55ec67a66973583d3420675146",
+                "reference": "e27d1f1bd219cf55ec67a66973583d3420675146",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^8.50",
+                "php": "^8.0",
+                "symfony/process": "^5.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^v6.0",
+                "phpunit/phpunit": "^9.5",
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TPG\\Vitamin\\ServiceProvider"
+                    ]
+                },
+                "branch-aliases": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TPG\\Vitamin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "THEPUBLICGOOD",
+                    "email": "makers@thepublicgood.dev"
+                }
+            ],
+            "description": "A solution for using Vite with Laravel and Inertia",
+            "support": {
+                "issues": "https://github.com/tpg/vitamin/issues",
+                "source": "https://github.com/tpg/vitamin/tree/v0.1.4"
+            },
+            "time": "2021-12-01T07:41:24+00:00"
         },
         {
             "name": "tightenco/ziggy",
