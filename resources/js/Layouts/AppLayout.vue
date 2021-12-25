@@ -265,7 +265,7 @@
 
         methods: {
             switchToTeam(team) {
-                this.$inertia.put(route('current-team.update'), {
+                this.$inertia.put(this.route('current-team.update'), {
                     'team_id': team.id
                 }, {
                     preserveState: false
@@ -273,7 +273,7 @@
             },
 
             logout() {
-                this.$inertia.post(route('logout'));
+                this.$inertia.post(this.route('logout'));
             },
         }
     })
